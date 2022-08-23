@@ -1,0 +1,75 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(225, 211, 211);
+
+}
+
+.weather{
+  width: 35rem;
+  height: 28rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.weather_location{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.weather_degrees{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.weather_description{
+  display: flex;
+  align-items: center;
+}
+
+.weather_description_head{
+  display: flex;
+  align-items: center;
+}
+
+.weather_icon{
+  font-size: 2rem;
+  margin-right: 0.4rem;
+}
+
+.weather_description * h3{
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-right: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.weather_date{
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgb(222, 211, 211);
+}
+
+.weather_country{
+  height: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 1rem;
+}
+
+.weather_display{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1rem;
+  height: 17rem;
+}
